@@ -1,0 +1,23 @@
+//ninja code
+ //Chapter-4 ,Conditionals and Loops
+ import java.util.Scanner;
+public class Multiple_no {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+				// Write your code here
+		     Scanner sc=new Scanner(System.in);
+		    int n=sc.nextInt();
+		    int i=1,p=0;
+			while(i<=10){
+		    
+				  p +=n;
+				  System.out.println(p);
+                i++;
+			}
+			sc.close();
+		
+	}
+
+}
